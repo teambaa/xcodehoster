@@ -58,6 +58,7 @@ sudo sudo apt install imagemagick
 passwordmysql="-p$passwordmysql"
 sed -i "s/-ppasswordmysql/$passwordmysql/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/formdata.sh
+sed -i "s/xcodehoster.com/$domain/g" support/daftar.sh
 sed -i "s/xcodehoster.com/$domain/g" support/run.sh
 sed -i "s/xcodehoster.com/$domain/g" support/aktivasi3.sh
 sed -i "s/xcodehoster.com.pem/$domain.pem/g" support/subdomain.conf

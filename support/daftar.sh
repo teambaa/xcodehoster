@@ -2,12 +2,24 @@
 #Desain front end halaman login ini dibuat oleh awan - e-mail: hermawan9815@gmail.com , untuk back end oleh kurniawan - e-mail: kurniawanajazenfone@gmail.com
 echo "Content-type: text/html"
 echo ""
+patch=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 13 ; echo '')
+convert \
+    -size 725x100 \
+    xc:lightblue \
+    -font Bookman-DemiItalic \
+    -pointsize 18 \
+    -fill blue \
+    -gravity center \
+    -draw "text 0,0 '$(cat /usr/lib/cgi-bin/acak.txt)'" \
+    image.png
+convert image.png -background white -wave 4x55 image.png
+sudo cp image.png /home/xcodehoster
 cat <<EOT
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pendaftaran Xcodehoster</title>
-     <link rel="stylesheet" type="text/css"  href="https://domain.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Pendaftaran VPS Gratis</title>
+     <link rel="stylesheet" type="text/css"  href="https://jasawebcipta.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style>
     { 
         font: bold 16px;

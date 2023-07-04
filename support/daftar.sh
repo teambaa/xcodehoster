@@ -19,7 +19,7 @@ cat <<EOT
 <html>
 <head>
     <title>Pendaftaran VPS Gratis</title>
-     <link rel="stylesheet" type="text/css"  href="https://jasawebcipta.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css"  href="https://xcodehoster.com/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <style>
     { 
         font: bold 16px;

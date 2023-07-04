@@ -93,7 +93,7 @@ function hideButton(x)
                     </tr>
                 </table>
                 </form>
-Teknologi captcha gambar, filter input hanya mendukung huruf dan angka dibackend dan berbagai proteksinya lainnya dibuat algoritma dan kode sumbernya oleh PT. Teknologi Server Indonesia. Hosting dan subdomain ini 100% gratis, tidak ada biaya tersembunyi. E-mail dan nomor WA harus diisi dengan benar karena jika tidak, maka password tidak bisa direcovery jika lupa password.<br><br>
+Teknologi captcha gambar, filter input hanya mendukung huruf dan angka dibackend dan berbagai proteksinya oleh PT. Teknologi Server Indonesia. Hosting dan subdomain ini 100% gratis, tidak ada biaya tersembunyi. E-mail dan nomor WA harus diisi dengan benar karena jika tidak, maka password tidak bisa direcovery jika lupa password.<br><br>
             </div>
         </div>
     </div>
